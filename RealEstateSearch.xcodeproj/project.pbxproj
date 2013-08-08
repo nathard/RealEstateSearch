@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7046C0E7161BF3BD00146807 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7046C0E6161BF3BD00146807 /* UIKit.framework */; };
+		7046C0E9161BF3BD00146807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7046C0E8161BF3BD00146807 /* Foundation.framework */; };
+		7046C0EB161BF3BD00146807 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7046C0EA161BF3BD00146807 /* CoreGraphics.framework */; };
+		7046C0F1161BF3BD00146807 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7046C0EF161BF3BD00146807 /* InfoPlist.strings */; };
+		7046C0F3161BF3BD00146807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046C0F2161BF3BD00146807 /* main.m */; };
+		7046C0F7161BF3BD00146807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046C0F6161BF3BD00146807 /* AppDelegate.m */; };
+		7046C0FA161BF3BD00146807 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7046C0F8161BF3BD00146807 /* MainStoryboard.storyboard */; };
+		7046C0FD161BF3BD00146807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046C0FC161BF3BD00146807 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7046C0E2161BF3BC00146807 /* RealEstateSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstateSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7046C0E6161BF3BD00146807 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7046C0E8161BF3BD00146807 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7046C0EA161BF3BD00146807 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7046C0EE161BF3BD00146807 /* RealEstateSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealEstateSearch-Info.plist"; sourceTree = "<group>"; };
+		7046C0F0161BF3BD00146807 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7046C0F2161BF3BD00146807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7046C0F4161BF3BD00146807 /* RealEstateSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealEstateSearch-Prefix.pch"; sourceTree = "<group>"; };
+		7046C0F5161BF3BD00146807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7046C0F6161BF3BD00146807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7046C0F9161BF3BD00146807 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7046C0FB161BF3BD00146807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7046C0FC161BF3BD00146807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7046C0DF161BF3BC00146807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7046C0E7161BF3BD00146807 /* UIKit.framework in Frameworks */,
+				7046C0E9161BF3BD00146807 /* Foundation.framework in Frameworks */,
+				7046C0EB161BF3BD00146807 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7046C0D7161BF3BB00146807 = {
+			isa = PBXGroup;
+			children = (
+				7046C0EC161BF3BD00146807 /* RealEstateSearch */,
+				7046C0E5161BF3BC00146807 /* Frameworks */,
+				7046C0E3161BF3BC00146807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7046C0E3161BF3BC00146807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7046C0E2161BF3BC00146807 /* RealEstateSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7046C0E5161BF3BC00146807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7046C0E6161BF3BD00146807 /* UIKit.framework */,
+				7046C0E8161BF3BD00146807 /* Foundation.framework */,
+				7046C0EA161BF3BD00146807 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7046C0EC161BF3BD00146807 /* RealEstateSearch */ = {
+			isa = PBXGroup;
+			children = (
+				7046C0F5161BF3BD00146807 /* AppDelegate.h */,
+				7046C0F6161BF3BD00146807 /* AppDelegate.m */,
+				7046C0F8161BF3BD00146807 /* MainStoryboard.storyboard */,
+				7046C0FB161BF3BD00146807 /* ViewController.h */,
+				7046C0FC161BF3BD00146807 /* ViewController.m */,
+				7046C0ED161BF3BD00146807 /* Supporting Files */,
+			);
+			path = RealEstateSearch;
+			sourceTree = "<group>";
+		};
+		7046C0ED161BF3BD00146807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7046C0EE161BF3BD00146807 /* RealEstateSearch-Info.plist */,
+				7046C0EF161BF3BD00146807 /* InfoPlist.strings */,
+				7046C0F2161BF3BD00146807 /* main.m */,
+				7046C0F4161BF3BD00146807 /* RealEstateSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7046C0E1161BF3BC00146807 /* RealEstateSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7046C100161BF3BD00146807 /* Build configuration list for PBXNativeTarget "RealEstateSearch" */;
+			buildPhases = (
+				7046C0DE161BF3BC00146807 /* Sources */,
+				7046C0DF161BF3BC00146807 /* Frameworks */,
+				7046C0E0161BF3BC00146807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealEstateSearch;
+			productName = RealEstateSearch;
+			productReference = 7046C0E2161BF3BC00146807 /* RealEstateSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7046C0D9161BF3BB00146807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7046C0DC161BF3BB00146807 /* Build configuration list for PBXProject "RealEstateSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7046C0D7161BF3BB00146807;
+			productRefGroup = 7046C0E3161BF3BC00146807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7046C0E1161BF3BC00146807 /* RealEstateSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7046C0E0161BF3BC00146807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7046C0F1161BF3BD00146807 /* InfoPlist.strings in Resources */,
+				7046C0FA161BF3BD00146807 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7046C0DE161BF3BC00146807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7046C0F3161BF3BD00146807 /* main.m in Sources */,
+				7046C0F7161BF3BD00146807 /* AppDelegate.m in Sources */,
+				7046C0FD161BF3BD00146807 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7046C0EF161BF3BD00146807 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7046C0F0161BF3BD00146807 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7046C0F8161BF3BD00146807 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7046C0F9161BF3BD00146807 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7046C0FE161BF3BD00146807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7046C0FF161BF3BD00146807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7046C101161BF3BD00146807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealEstateSearch/RealEstateSearch-Prefix.pch";
+				INFOPLIST_FILE = "RealEstateSearch/RealEstateSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7046C102161BF3BD00146807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealEstateSearch/RealEstateSearch-Prefix.pch";
+				INFOPLIST_FILE = "RealEstateSearch/RealEstateSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7046C0DC161BF3BB00146807 /* Build configuration list for PBXProject "RealEstateSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7046C0FE161BF3BD00146807 /* Debug */,
+				7046C0FF161BF3BD00146807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7046C100161BF3BD00146807 /* Build configuration list for PBXNativeTarget "RealEstateSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7046C101161BF3BD00146807 /* Debug */,
+				7046C102161BF3BD00146807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7046C0D9161BF3BB00146807 /* Project object */;
+}
